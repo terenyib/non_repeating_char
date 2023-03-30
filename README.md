@@ -61,6 +61,11 @@ When check non repeating chars
 Then the result is "c"
 
 #### UAT-3.3
+Given the text "abc"
+When check non repeating chars
+Then the result is "a"
+
+#### UAT-3.4
 Given the text "aaa"
 When check non repeating chars
 Then the result is ""
