@@ -26,4 +26,7 @@ describe('US-3', () => {
   it('Given text "abc" When I check first non-repeating Then the result is "a"', () => {
     expect(nonRepeatingChar("abc")).toBe("a");
   });
+  it('Given text "aaa" When I check first non-repeating Then the result is ""', () => {
+    expect(nonRepeatingChar("aaa")).toBe("");
+  });
 });
