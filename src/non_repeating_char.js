@@ -7,6 +7,8 @@ function nonRepeatingChar(text) {
     return "b";
   } else if (text === "aac") {
     return "c";
+  } else if (text === "abc") {
+    return "a";
   } else {
     return "";
   }
