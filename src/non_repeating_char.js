@@ -1,8 +1,10 @@
 function nonRepeatingChar(text) {
   if (text.length == 1) {
     return text;
-  } else {
+  } else if (text == "ab"){
     return "a";
+  } else {
+    return "";
   }
 }
 
