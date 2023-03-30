@@ -69,3 +69,18 @@ Then the result is "a"
 Given the text "aaa"
 When check non repeating chars
 Then the result is ""
+
+### US-4
+As a writer
+I want to check which character is first non repeating in any text that has lower and upper case letters
+So that I will know which char will be used less
+
+#### UAT-4.1
+Given the text "Somestring"
+When check non repeating chars
+Then the result is "o"
+
+#### UAT-4.2
+Given the text "aAbBcCD"
+When check non repeating chars
+Then the result is "D"
