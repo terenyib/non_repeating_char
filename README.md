@@ -38,9 +38,9 @@ So that I will know which char will be used less
 #### UAT-2.1
 Given the text "ab"
 When check non repeating chars
-Then the result is "ab"
+Then the result is "a"
 
 #### UAT-2.2
 Given the text "aa"
 When check non repeating chars
-Then the result is "aa"
+Then the result is ""
