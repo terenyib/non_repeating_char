@@ -4,7 +4,7 @@ function nonRepeatingChar(text) {
     let currentChar = text[i];
     let text2 = text.slice(0, i).concat(text.slice(i + 1))
     if (result == "" && !text2.toUpperCase().includes(currentChar) && !text2.toLowerCase().includes(currentChar)) {
-      result += currentChar;
+      result = currentChar;
     }
   }
   return result;
