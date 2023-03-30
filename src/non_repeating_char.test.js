@@ -8,8 +8,11 @@ describe('US-1', () => {
     expect(nonRepeatingChar("z")).toBe("z");
   });
 });
-describe('US-1', () => {
+describe('US-2', () => {
   it('Given text "ab" When I check first non-repeating Then the result is "ab"', () => {
     expect(nonRepeatingChar("ab")).toBe("a");
+  });
+  it('Given text "aa" When I check first non-repeating Then the result is ""', () => {
+    expect(nonRepeatingChar("aa")).toBe("");
   });
 });
