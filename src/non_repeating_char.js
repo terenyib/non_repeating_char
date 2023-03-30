@@ -1,5 +1,5 @@
 function nonRepeatingChar() {
-  return null;
+  return "a";
 }
 
 module.exports = nonRepeatingChar;

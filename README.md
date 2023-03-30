@@ -16,11 +16,31 @@ If a string contains all repeating characters, it should return an empty string 
 ## Backlog
 
 ### US-1
-As a {someone}
-I want to {do something}
-So that {I get some value}
+As a writer
+I want to check which character is non repeating in my 1 char text
+So that I will know which char will be used less
 
 #### UAT-1.1
-Given {preconditions}
-When {I do something}
-Then {something happens}
+Given the text "a"
+When check non repeating chars
+Then the result is "a"
+
+#### UAT-1.2
+Given the text "z"
+When check non repeating chars
+Then the result is "z"
+
+### US-2
+As a writer
+I want to check which character is first non repeating in my 2 char text
+So that I will know which char will be used less
+
+#### UAT-2.1
+Given the text "ab"
+When check non repeating chars
+Then the result is "ab"
+
+#### UAT-2.2
+Given the text "aa"
+When check non repeating chars
+Then the result is "aa"
