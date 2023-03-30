@@ -44,3 +44,23 @@ Then the result is "a"
 Given the text "aa"
 When check non repeating chars
 Then the result is ""
+
+### US-3
+As a writer
+I want to check which character is first non repeating in my 3 char text
+So that I will know which char will be used less
+
+#### UAT-3.1
+Given the text "aba"
+When check non repeating chars
+Then the result is "b"
+
+#### UAT-3.2
+Given the text "aaa"
+When check non repeating chars
+Then the result is ""
+
+#### UAT-3.3
+Given the text "aac"
+When check non repeating chars
+Then the result is "c"
